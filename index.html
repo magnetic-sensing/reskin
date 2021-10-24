@@ -5,8 +5,6 @@
 
 	<link rel="stylesheet" href="style.css">
 	<title>ReSkin: versatile, replaceable, lasting tactile skins</title>
-	<meta name="HandheldFriendly" content="True">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Need to add facebook, google, twitter tags -->
 
 	<meta property="og:image" content="Path to my teaser.png"/> <!-- Facebook automatically scrapes this. Go to https://developers.facebook.com/tools/debug/ if you update and want to force Facebook to rescrape. -->
@@ -23,9 +21,13 @@
 
 		gtag('config', 'UA-75863369-6');
 	</script>
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic" rel="stylesheet" type="text/css"
 </head>
 
 <body>
+	<meta charset="utf-8">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<br>
 	<!-- <center> -->
 		<div id="paper_title">ReSkin: versatile, replaceable, lasting tactile skins</div>
@@ -74,17 +76,17 @@
 		<div class="table-like" style="max-width: 500px;">
 			<div class="main_link"> 
 				<center>
-					<span style="font-size:24px"><a href=''>[Paper]</a></span>
+					<a href=''>[Paper]</a>
 				</center>
 			</div>
 			<div class="main_link"> 
 				<center>
-					<span style="font-size:24px"><a href=''>[GitHub]</a></span>
+					<a href=''>[GitHub]</a>
 				</center>
 			</div>
 			<div class="main_link"> 
 				<center>
-					<span style="font-size:24px"><a href=''>[Blog]</a></span>
+					<a href=''>[Blog]</a>
 				</center>
 			</div>
 		</div>
@@ -92,57 +94,50 @@
 	<!-- </center> -->
 
 	<center>
-		<table align=center width=850px>
-			<tr>
-				<td width=260px>
-					<center>
-						<img class="round" style="width:500px" src="./resources/teaser.png"/>
-					</center>
-				</td>
-			</tr>
-		</table>
-		<table align=center width=850px>
-			<tr>
-				<td>
-					This was a template originally made for <a href="http://richzhang.github.io/colorization/">Colorful Image Colorization</a>. The code can be found in this <a href="https://github.com/richzhang/webpage-template">repository</a>.
-				</td>
-			</tr>
-		</table>
+		<div class="yt-video">
+			<iframe width="768" height="432" src="https://www.youtube.com/embed/g0TaYhjpOfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+			</iframe>
+		</div>
+		<div class="table-like">
+			This is a temporary video. Will upload ReSkin video to youtube and replace.
+		</div>
 	</center>
 
 	<hr>
 
-	<table align=center width=850px>
-		<center><h1>Abstract</h1></center>
-		<tr>
-			<td>
-				Soft sensors have continued growing interest in robotics, due to their ability to enable both passive conformal contact from the material properties and active contact data from the sensor properties. 
-				However, the same properties of conformal contact result in faster deterioration of soft sensors and larger variations in their response characteristics over time and across samples, inhibiting their ability to be long-lasting and replaceable. 
-				ReSkin is a tactile soft sensor that leverages machine learning and magnetic sensing to offer a low-cost, diverse and compact solution for long-term use. 
-				Magnetic sensing separates the electronic circuitry from the passive interface, making it easier to replace interfaces as they wear out while allowing for a wide variety of form factors. 
-				Machine learning allows us to learn sensor response models that are robust to variations across fabrication and time, and our self-supervised learning algorithm 
-				enables finer performance enhancement with small, inexpensive data collection procedures. We believe that ReSkin opens the door to more versatile, scalable and 
-				inexpensive tactile sensation modules than existing alternatives.
-			</td>
-		</tr>
-	</table>
+	<div class="table-like">
+		<div class="section-heading"><h1>Abstract</h1></div>
+
+		Soft sensors have continued growing interest in robotics, due to their ability to enable both passive conformal contact from the material properties and active contact data from the sensor properties. 
+		However, the same properties of conformal contact result in faster deterioration of soft sensors and larger variations in their response characteristics over time and across samples, inhibiting their ability to be long-lasting and replaceable. 
+		ReSkin is a tactile soft sensor that leverages machine learning and magnetic sensing to offer a low-cost, diverse and compact solution for long-term use. 
+		Magnetic sensing separates the electronic circuitry from the passive interface, making it easier to replace interfaces as they wear out while allowing for a wide variety of form factors. 
+		Machine learning allows us to learn sensor response models that are robust to variations across fabrication and time, and our self-supervised learning algorithm 
+		enables finer performance enhancement with small, inexpensive data collection procedures. We believe that ReSkin opens the door to more versatile, scalable and 
+		inexpensive tactile sensation modules than existing alternatives.
+	</div>
 	<br>
 
 	<hr>
-	<center><h1>Talk</h1></center>
-	<p align="center">
-		<iframe width="660" height="395" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe>
-	</p>
-
-	<table align=center width=800px>
-		<br>
-		<tr>
-			<center>
-				<span style="font-size:28px"><a href=''>[Slides]</a>
-				</span>
-			</center>
-		</tr>
-	</table>
+	<div class="table-like">
+		<div class="section-heading"><h1>Talk</h1></div>
+		<div class='yt-video'>
+			<iframe width="768" height="432" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe>
+		</div>
+		<div class="main_link">
+			<a href=''>[Slides]</a>
+		</div>
+		<!-- <table align=center width=800px>
+			<br>
+			<tr>
+				<center>
+					<span style="font-size:28px"><a href=''>[Slides]</a>
+					</span>
+				</center>
+			</tr>
+		</table> -->
+	</div>
+	
 	<hr>
 
 	<center><h1>Code</h1></center>
