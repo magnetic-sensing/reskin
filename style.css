@@ -140,7 +140,11 @@ hr
     width:100%;
     text-align: center;
 }
-.yt-video {
+.section-heading h1 {
+    font-size: 40px;
+}
+
+.section-graphic {
     width:100%;
     text-align: center;
 }
