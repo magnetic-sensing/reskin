@@ -65,6 +65,7 @@ a:link,a:visited
 {
     color: #1367a7;
     text-decoration: none;
+    display: inline;
 }
 a:hover {
     color: #208799;
