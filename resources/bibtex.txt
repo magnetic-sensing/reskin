@@ -1,6 +1,7 @@
-@inproceedings{author20XXtitle,
-  title={Please cite me},
-  author={Author, First and Author, Second and Author, Third},
-  booktitle={Conference},
-  year={20XX}
+@inproceedings{bhirangi2021reskin,
+    title={ReSkin:versatile, replaceable, lasting tactile skins},
+    author={Raunaq Bhirangi and Tess Hellebrekers
+    and Carmel Majidi and Abhinav Gupta},
+    year={2021},
+    Booktitle={CoRL}
 }
